@@ -38,8 +38,8 @@ class ProjectDisplay extends React.Component{
     </ul>
     </Card.Text>
     <div className="center">
-    <a href={this.props.projectInfo.demo_url} title="Demo"><FontAwesomeIcon icon={faDesktop}/></a>
-    <a href={this.props.projectInfo.github_url} title="Github"><FontAwesomeIcon icon={faCode}/></a>
+    <a className="social-links" href={this.props.projectInfo.demo_url} title="Demo"><FontAwesomeIcon icon={faDesktop}/></a>
+    <a className="social-links" href={this.props.projectInfo.github_url} title="Github"><FontAwesomeIcon icon={faCode}/></a>
     </div>
     </Card.Body>
     </Card>

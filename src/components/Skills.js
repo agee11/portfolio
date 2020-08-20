@@ -6,9 +6,9 @@ class Skills extends React.Component{
 
 
   render(){
-    return <div>
-    <h1 id="resume" className="center">My Skills</h1>
-    <div className="skills-container">
+    return <div className="skills-container">
+    <h1 id="resume" className="center skills-title">My Skills</h1>
+    <div className="skills-content">
       <div>
         <h3>FrontEnd Skills</h3>
         <ul>
