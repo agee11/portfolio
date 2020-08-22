@@ -28,12 +28,15 @@ class ProjectContainer extends React.Component{
   render(){
     let empty = this.state.projects.length < 1;
     console.log(this.state.projects)
-    return <div>
-    <h1 id="projects" className="section-title">My Projects</h1>
+    return <div id="projects" className="section-container">
+    <h1 className="section-title">My Projects</h1>
       <div className="project-container">
-      {!empty && this.state.projects.map((project,index) =>
+      { if(!empty){
+        this.state.projects.map((project,index) =>
         <ProjectDisplay key={index} id={index} projectInfo={project}/>
-      )}
+      )}else{
+        <h1>Loading</h1>
+      }}
       </div>
     </div>
   }

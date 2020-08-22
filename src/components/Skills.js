@@ -6,34 +6,36 @@ class Skills extends React.Component{
 
 
   render(){
-    return <div className="skills-container">
-    <h1 id="resume" className="center skills-title">My Skills</h1>
-    <div className="skills-content">
+    return <div id="resume" className="section-container">
+    <h1 className="section-title skills-title">My Skills</h1>
+    <div className="skills-content skills-container">
       <div>
         <h3>FrontEnd Skills</h3>
-        <ul>
-          <li><FontAwesomeIcon icon={faJsSquare} size="3x"/></li>
-          <li><FontAwesomeIcon icon={faCss3} size="3x"/></li>
-          <li><FontAwesomeIcon icon={faHtml5} size="3x"/></li>
-          <li><FontAwesomeIcon icon={faReact} size="3x"/></li>
-          <li><FontAwesomeIcon icon={faBootstrap} size="3x"/></li>
-          <li><h3>jQuery</h3></li>
+        <ul className="skills-list">
+          <li><FontAwesomeIcon icon={faJsSquare} size="3x"/> <p>JavaScript</p></li>
+          <li><FontAwesomeIcon icon={faCss3} size="3x"/> <p>CSS</p></li>
+          <li><FontAwesomeIcon icon={faHtml5} size="3x"/> <p>HTML</p></li>
+          <li><FontAwesomeIcon icon={faReact} size="3x"/> <p>React</p></li>
+          <li><FontAwesomeIcon icon={faBootstrap} size="3x"/> <p>Bootstrap</p></li>
+          <li><p>jQuery</p></li>
         </ul>
       </div>
       <div>
         <h3>BackEnd Skills</h3>
-        <ul>
-          <li><FontAwesomeIcon icon={faNodeJs} size="3x"/></li>
-          <li><h3>ExpressJS</h3></li>
-          <li><h3>SQL</h3></li>
-          <li><h3>Firebase</h3></li>
+        <ul className="skills-list">
+          <li><FontAwesomeIcon icon={faNodeJs} size="3x"/> <p>Node JS</p></li>
+          <li><p> ExpressJS</p></li>
+          <li><p> SQL</p></li>
+          <li><p> Firebase</p></li>
+          <li><p> MongoDB</p></li>
+          <li><p> Mongoose</p></li>
         </ul>
       </div>
       <div>
         <h3>Other Skills</h3>
-        <ul>
-          <li><FontAwesomeIcon icon={faGithub} size="3x"/></li>
-          <li><FontAwesomeIcon icon={faJira} size="3x"/></li>
+        <ul className="skills-list">
+          <li><FontAwesomeIcon icon={faGithub} size="3x"/> <p>Github</p></li>
+          <li><FontAwesomeIcon icon={faJira} size="3x"/> <p>Jira</p></li>
         </ul>
       </div>
     </div>
