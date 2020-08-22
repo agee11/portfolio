@@ -14,7 +14,7 @@ class Navigation extends React.Component {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="#social">Social</Nav.Link>
+            <Nav.Link href="#social">Contact Me</Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Navbar>

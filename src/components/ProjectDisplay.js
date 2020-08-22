@@ -29,7 +29,7 @@ class ProjectDisplay extends React.Component{
           </ul>
         </div>
         <div>
-          <h3>Tech Stack</h3>
+          <h3>Tech</h3>
           <ul>
           {this.props.projectInfo.skills.map((item,index) =>
             <li key={index}>{item}</li>
