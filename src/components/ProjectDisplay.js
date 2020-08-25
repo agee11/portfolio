@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faDesktop } from '@fortawesome/free-solid-svg-icons'
 
 class ProjectDisplay extends React.Component{
-    //<Card.Img variant="left" src="https://colorpalettes.net/wp-content/uploads/2020/05/color-palette-4214.png"/>
   render(){
     return <div className="projectDisplay">
     <h2 className="project-title">{this.props.projectInfo.name}</h2>
