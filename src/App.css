@@ -1,8 +1,9 @@
 :root{
-  --text-color: #33ff00;
-  --link-color: #0be7fb;
-  --bg-color: #1e0521;
-  --border-color: #fecc50;
+  --text-color: #42445a;
+  --link-color: #22b2ea;
+  --bg-color: #ddeaee;
+  --bg-color2: #8cacd0;
+  --border-color: #d7b5a1;
 
 }
 
@@ -21,6 +22,7 @@ ul{
 }
 
 .bg-nav{
+  background-color: var(--text-color);
 }
 
 #home{
@@ -82,6 +84,7 @@ ul{
 
 .project-container {
   width: 100%;
+  padding-bottom: 100px;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -95,11 +98,17 @@ ul{
 }
 
 .skills-container {
-  color: var(--text-color);
+  color: white;
   border-style: outset;
   border-radius: 50px;
   border-color: var(--border-color);
   padding: 10px;
+  margin: 10px 5%;
+}
+
+#resume .section-title{
+  color: white;
+  text-align: center;
   margin: 10px 5%;
 }
 
@@ -130,6 +139,10 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+
+#resume{
+  background-color: var(--text-color);
 }
 
 .social-container {
