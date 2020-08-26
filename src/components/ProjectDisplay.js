@@ -20,7 +20,7 @@ class ProjectDisplay extends React.Component{
       </Carousel>
       <div className="project-info">
         <div>
-          <h3>Features</h3>
+          <h3>Features</h3><hr/>
           <ul>
           {this.props.projectInfo.features.map((item,index) =>
             <li key={index}>{item}</li>
@@ -28,7 +28,7 @@ class ProjectDisplay extends React.Component{
           </ul>
         </div>
         <div>
-          <h3>Tech</h3>
+          <h3>Tech</h3><hr/>
           <ul>
           {this.props.projectInfo.skills.map((item,index) =>
             <li key={index}>{item}</li>

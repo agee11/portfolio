@@ -6,6 +6,8 @@ import ProjectContainer from "./components/ProjectContainer";
 import Skills from "./components/Skills";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./japan2.jpg";
+import "./japan3.jpg";
 
 function App() {
 
@@ -14,6 +16,7 @@ function App() {
       <Navigation />
       <About />
       <ProjectContainer />
+      <div id="mid" className="parallax"></div>
       <Skills />
       <Footer />
     </div>

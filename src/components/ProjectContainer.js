@@ -32,8 +32,8 @@ class ProjectContainer extends React.Component{
       content = this.state.projects.map((project,index) =>
       <ProjectDisplay key={index} id={index} projectInfo={project}/>
     )}else{
-      content = <div class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
+      content = <div className="spinner-border" role="status">
+        <span className="sr-only">Loading...</span>
       </div>
     }
     return <div id="projects" className="section-container">

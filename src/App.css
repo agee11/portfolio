@@ -28,9 +28,11 @@ ul{
 #home{
   padding-top: 100px;
   padding-bottom: 30px;
-  /* background-image: url("./sky.jpg"); */
+  background-image: url("./japan.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--text-color);
   display: flex;
   flex-direction: column;
@@ -45,6 +47,10 @@ ul{
   max-width: 820px;
   min-width: 350px;
   transform: translateY(-100px);
+  background-color: var(--text-color);
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .projectDisplay{
@@ -79,6 +85,7 @@ ul{
 .project-info{
   flex-basis: 40%;
   margin-left: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -141,12 +148,32 @@ ul{
   align-content: center;
 }
 
+.parallax {
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mid {
+  background-image: url("./japan2.jpg");
+}
+
 #resume{
   background-color: var(--text-color);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .social-container {
   color: var(--text-color);
+  background-color: var(--text-color);
   display: flex;
   justify-content: center;
 }
