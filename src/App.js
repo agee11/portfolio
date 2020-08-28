@@ -16,7 +16,6 @@ function App() {
       <Navigation />
       <About />
       <ProjectContainer />
-      <div id="mid" className="parallax"></div>
       <Skills />
       <Footer />
     </div>

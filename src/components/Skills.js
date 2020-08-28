@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faHtml5, faGithub, faCss3, faReact, faBootstrap, faNodeJs, faJira} from '@fortawesome/free-brands-svg-icons'
 import {faDesktop, faDatabase, faTools} from "@fortawesome/free-solid-svg-icons";
+import "./Skills.css";
 
 class Skills extends React.Component{
 

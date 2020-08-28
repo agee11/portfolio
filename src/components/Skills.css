@@ -1,0 +1,47 @@
+.skills-container {
+  color: var(--text-color);
+  padding: 10px;
+  margin: 10px 5%;
+}
+
+#resume{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#resume .section-title{
+  color: var(--text-color);
+  text-align: center;
+  margin: 10px 5%;
+}
+
+.skills-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills-list li{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 750px){
+  .skills-content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+}

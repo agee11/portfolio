@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-class Navigation extends React.Component {
+function Navigation() {
 
-  render(){
     return <div className="top-bar">
         <Navbar fixed="top" bg="nav" variant="dark" expand="sm">
           <Navbar.Brand>AG</Navbar.Brand>
@@ -19,7 +18,6 @@ class Navigation extends React.Component {
           </Navbar.Collapse>
         </Navbar>
       </div>;
-  }
 }
 
 export default Navigation;
