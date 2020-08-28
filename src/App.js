@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import Footer from "./components/Footer";
 import About from "./components/About";
 import ProjectContainer from "./components/ProjectContainer";
-import Skills from "./components/Skills";
+import ResumeContainer from "./components/ResumeContainer";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./japan2.jpg";
@@ -16,7 +16,7 @@ function App() {
       <Navigation />
       <About />
       <ProjectContainer />
-      <Skills />
+      <ResumeContainer />
       <Footer />
     </div>
   );

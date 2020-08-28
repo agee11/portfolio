@@ -21,6 +21,10 @@
   height: auto;
 }
 
+.carousel:hover{
+  box-shadow: 0 0 10px white;
+}
+
 .project-info{
   margin-left: 20px;
   padding: 10px;

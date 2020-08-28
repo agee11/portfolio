@@ -22,6 +22,6 @@
   min-width: 350px;
   transform: translateY(-100px);
   background-color: var(--bg-color);
-  color: var(--text-color);
   padding: 10px;
+  /* mix-blend-mode: screen; */
 }

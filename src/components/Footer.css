@@ -7,4 +7,9 @@
 .social-links {
   margin: 10px;
   color: var(--link-color);
+  /* color: #ffd321; */
+}
+
+.social-links:hover{
+  color: var(--link-hover);
 }
