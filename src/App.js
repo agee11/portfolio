@@ -6,8 +6,6 @@ import ProjectContainer from "./components/ProjectContainer";
 import ResumeContainer from "./components/ResumeContainer";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./japan2.jpg";
-import "./japan3.jpg";
 
 function App() {
 

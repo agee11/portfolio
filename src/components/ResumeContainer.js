@@ -4,7 +4,7 @@ import WorkHistory from "./WorkHistory.js";
 
 function ResumeContainer(){
   return (
-    <div>
+    <div id="resume" className="section-container">
       <Skills />
       <WorkHistory />
     </div>

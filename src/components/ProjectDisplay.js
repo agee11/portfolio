@@ -31,8 +31,8 @@ class ProjectDisplay extends React.Component{
           )}
         </div>
         <div className="project-links">
-          <a className="social-links" href={this.props.projectInfo.demo_url} target="_blank" title="Demo"><FontAwesomeIcon icon={faDesktop} size="2x"/></a>
-          <a className="social-links" href={this.props.projectInfo.github_url} target="_blank" title="Github"><FontAwesomeIcon icon={faCode} size="2x"/></a>
+          <a className="links" href={this.props.projectInfo.demo_url} target="_blank" rel="noopener noreferrer" title="Demo"><FontAwesomeIcon icon={faDesktop} size="2x"/></a>
+          <a className="links" href={this.props.projectInfo.github_url} target="_blank" rel="noopener noreferrer" title="Github"><FontAwesomeIcon icon={faCode} size="2x"/></a>
         </div>
       </div>
     </div>

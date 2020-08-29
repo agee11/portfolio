@@ -4,12 +4,12 @@
   justify-content: center;
 }
 
-.social-links {
+.links {
   margin: 10px;
   color: var(--link-color);
   /* color: #ffd321; */
 }
 
-.social-links:hover{
+.links:hover{
   color: var(--link-hover);
 }

@@ -1,4 +1,19 @@
 .work-section{
   color: var(--text-color);
-  text-align: center;
+  text-align: left;
+  padding: 0 150px;
+}
+
+.work-section ul{
+  text-align: left;
+}
+
+.work-section li{
+  margin-bottom: 10px;
+}
+
+.work-section ul li::before{
+  content: "▹";
+  padding-right: 20px;
+  color: var(--link-color);
 }
