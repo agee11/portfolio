@@ -57,10 +57,7 @@
 .flip-card-back{
   transform: rotateY(180deg);
   background-color: var(--border-color);
-}
-
-.flip-card-front{
-
+  color: var(--bg-color);
 }
 
 @media only screen and (max-width: 750px){
@@ -69,8 +66,10 @@
     align-items: center;
     padding: 0 100px;
   }
+}
 
-  .skills-list li{
-    margin-top: 5px;
+@media only screen and (max-width: 500px){
+  .skills-container{
+    padding: 0 50px;
   }
 }
