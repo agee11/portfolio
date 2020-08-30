@@ -64,7 +64,7 @@ ul{
 
 @media only screen and (max-width: 1000px){
   .project-container{
-    padding: 50px;
+    padding: 0 50px;
   }
 }
 

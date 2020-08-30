@@ -1,7 +1,7 @@
 #home{
   padding-top: 100px;
   padding-bottom: 30px;
-  background-image: linear-gradient(black, black), url("../japan.jpg");
+  background-image: linear-gradient(black, black), url("../japan2.jpg");
   background-size: cover;
   background-blend-mode: saturation;
   background-position: center;
@@ -25,7 +25,5 @@
   max-width: 820px;
   min-width: 350px;
   transform: translateY(-100px);
-  /* background-color: var(--bg-color); */
   padding: 10px;
-  /* mix-blend-mode: screen; */
 }

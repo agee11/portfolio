@@ -1,7 +1,13 @@
 .work-section{
   color: var(--text-color);
   text-align: left;
-  padding: 0 150px;
+  padding: 50px 150px 30px;
+}
+
+.employed-section{
+  box-shadow: 5px 5px 15px black;
+  padding: 20px;
+  margin: 20px 0;
 }
 
 .work-section ul{
@@ -10,26 +16,36 @@
 
 .work-section li{
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .work-section ul li::before{
   content: "▹";
-  padding-right: 20px;
   color: var(--link-color);
+  position: absolute;
+  left: 0;
+}
+
+.work-title{
+  text-align: center;
 }
 
 .work-highlight{
-  box-shadow: 5px 5px 15px black;
+  position: relative;
 }
 
 @media only screen and (max-width: 750px){
   .work-section{
-    padding: 0 100px;
+    padding: 50px 100px 30px;
   }
 }
 
 @media only screen and (max-width: 500px){
   .work-section{
-    padding: 0 50px;
+    padding: 50px 50px 30px;
+  }
+
+  .employed-section{
+    padding: 5px;
   }
 }

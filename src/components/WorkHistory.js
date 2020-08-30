@@ -4,8 +4,8 @@ import "./WorkHistory.css";
 function WorkHistory(){
   return (
     <div className="work-section">
-      <h1>EXPERIENCE</h1>
-      <div>
+      <h1 className="work-title">EXPERIENCE</h1>
+      <div className="employed-section">
         <h3>QA/Devops Engineer at<a className="links" href="https://www.magicfuelgames.com/" target="_blank" rel="noopener noreferrer">Magic Fuel Games</a></h3>
         <p>Jan 2017 - Mar 2020</p>
         <div className="work-highlight">
@@ -17,7 +17,7 @@ function WorkHistory(){
           </ul>
         </div>
       </div>
-      <div>
+      <div className="employed-section">
         <h3>QA Analyst at<a className="links" href="https://www.nexon.com/main/en" target="_blank" rel="noopener noreferrer">Nexon M</a></h3>
         <p>Mar 2015 - Sept 2016</p>
         <div className="work-highlight">
