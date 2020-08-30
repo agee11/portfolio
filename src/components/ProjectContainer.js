@@ -37,7 +37,7 @@ class ProjectContainer extends React.Component{
       </div>
     }
     return <div id="projects" className="section-container">
-    <h1 className="section-title">My Projects</h1>
+    <h1 className="section-title">PROJECTS</h1>
       <div className="project-container">
       {content}
       </div>

@@ -4,7 +4,7 @@ import "./WorkHistory.css";
 function WorkHistory(){
   return (
     <div className="work-section">
-      <h1>Work History</h1>
+      <h1>EXPERIENCE</h1>
       <div>
         <h3>QA/Devops Engineer at<a className="links" href="https://www.magicfuelgames.com/" target="_blank" rel="noopener noreferrer">Magic Fuel Games</a></h3>
         <p>Jan 2017 - Mar 2020</p>
