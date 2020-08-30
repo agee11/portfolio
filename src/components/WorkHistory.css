@@ -1,7 +1,7 @@
 .work-section{
   color: var(--text-color);
+  padding-top: 50px;
   text-align: left;
-  padding: 50px 150px 30px;
 }
 
 .employed-section{
@@ -36,13 +36,11 @@
 
 @media only screen and (max-width: 750px){
   .work-section{
-    padding: 50px 100px 30px;
   }
 }
 
 @media only screen and (max-width: 500px){
   .work-section{
-    padding: 50px 50px 30px;
   }
 
   .employed-section{
