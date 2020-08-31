@@ -1,7 +1,7 @@
 #home{
   padding-top: 100px;
   padding-bottom: 30px;
-  background-image: linear-gradient(black, black), url("../japan2.jpg");
+  background-image: linear-gradient(black, black), url("../sfmin.jpg");
   background-size: cover;
   background-blend-mode: saturation;
   background-position: center;
@@ -13,6 +13,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: relative;
+  min-height: calc(100vh + 100px);
+}
+
+#home:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 49.45vw solid var(--bg-color);
+  border-right: 49.45vw solid var(--bg-color);
 }
 
 .name-highlight{

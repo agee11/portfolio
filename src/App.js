@@ -3,9 +3,9 @@ import Navigation from './components/Navigation';
 import Footer from "./components/Footer";
 import About from "./components/About";
 import ProjectContainer from "./components/ProjectContainer";
-import ResumeContainer from "./components/ResumeContainer";
+import Skills from "./components/Skills";
+import WorkHistory from "./components/WorkHistory";
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
       <Navigation />
       <About />
       <ProjectContainer />
-      <ResumeContainer />
+      <Skills />
+      <WorkHistory />
       <Footer />
     </div>
   );
