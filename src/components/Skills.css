@@ -1,20 +1,15 @@
-.skills-container {
-  color: var(--text-color);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
-  box-shadow: 5px 5px 15px black;
-}
-
 #resume{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* background-image: url("../japan2.jpg"); */
-  background-image: linear-gradient(to right, transparent 10%, var(--link-color)), url("../japan.jpg");
+  /* background-image: linear-gradient(to right, transparent 0 30%, #a36111 70% 100%), url("../japan.jpg"); */
+  background-color: var(--link-color);
   position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   min-height: calc(100vh + 100px);
 }
 
@@ -47,17 +42,45 @@
   border-right: 49.45vw solid var(--bg-color);
 }
 
+.about-me{
+  max-width: calc(50vh - 150px);
+}
+
+.about-me img{
+  border-radius: 100%;
+}
+
+.skills-container {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 5px 5px 15px black;
+  padding: 20px;
+  max-width: calc(50vh - 150px);
+}
+
 .skills-list li{
-  display: block;
+  display: inline-block;
   text-align: left;
+  border-radius: 3px;
+  border: 3px solid var(--text-color);
+  padding: 3px 5px;
+  margin: 0 0 5px 3px;
 }
 
 @media only screen and (max-width: 750px){
   .skills-container{
     flex-direction: column;
     align-items: center;
+    max-width: calc(50vh - 100px);
   }
 }
 
 @media only screen and (max-width: 500px){
+  .skills-container{
+    max-width: calc(50vh - 50px);
+  }
 }

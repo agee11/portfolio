@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDesktop, faDatabase, faTools} from "@fortawesome/free-solid-svg-icons";
 import "./Skills.css";
+import logo from "../logo.jpg";
 
 class Skills extends React.Component{
 
@@ -9,10 +10,15 @@ class Skills extends React.Component{
   render(){
     return (
     <div id="resume" className="section-container">
-      <h1 className="section-title">SKILLS</h1>
+      <div className="about-me">
+        <h1>Andrew Gee</h1>
+        <img src={logo} alt="profile"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
       <div className="skills-container">
+        <h1 className="section-title">SKILLS</h1>
         <div>
-          <FontAwesomeIcon icon={faDesktop} size="3x"/><h3>FrontEnd Skills</h3>
+          <FontAwesomeIcon icon={faDesktop} size="2x"/><h3>FrontEnd Skills</h3>
           <ul className="skills-list">
             <li>JavaScript</li>
             <li>CSS</li>
@@ -23,7 +29,7 @@ class Skills extends React.Component{
           </ul>
         </div>
         <div>
-          <FontAwesomeIcon icon={faDatabase} size="3x"/><h3>BackEnd Skills</h3>
+          <FontAwesomeIcon icon={faDatabase} size="2x"/><h3>BackEnd Skills</h3>
           <ul className="skills-list">
             <li>Node JS</li>
             <li>ExpressJS</li>
@@ -34,7 +40,7 @@ class Skills extends React.Component{
           </ul>
         </div>
         <div>
-          <FontAwesomeIcon icon={faTools} size="3x"/><h3>Other Skills</h3>
+          <FontAwesomeIcon icon={faTools} size="2x"/><h3>Other Skills</h3>
           <ul className="skills-list">
             <li>Github</li>
             <li>Jira</li>
