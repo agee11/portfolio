@@ -1,24 +1,24 @@
+
 #resume{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* background-image: linear-gradient(to right, transparent 0 30%, #a36111 70% 100%), url("../japan.jpg"); */
   background-color: var(--link-color);
   position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: calc(100vh + 100px);
 }
 
 #resume .section-title{
-  color: var(--text-color);
+  color: var(--bg-color);
   text-align: center;
 }
 
-#resume:before{
+/* #resume:before{
   content: "";
   position: absolute;
   left: 0;
@@ -26,11 +26,33 @@
   width: 0;
   height: 0;
   border-top: 100px solid var(--bg-color);
-  border-left: 49.45vw solid transparent;
-  border-right: 49.45vw solid transparent;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+} */
+
+#resume .bottom-divider{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  color: var(--bg-color);
+  fill: currentColor;
 }
 
-#resume:after{
+#resume .top-divider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--border-color);
+  color: var(--bg-color);
+  fill: currentColor;
+}
+
+/* #resume:after{
   content: "";
   position: absolute;
   left: 0;
@@ -38,35 +60,40 @@
   width: 0;
   height: 0;
   border-top: 100px solid transparent;
-  border-left: 49.45vw solid var(--bg-color);
-  border-right: 49.45vw solid var(--bg-color);
-}
+  border-left: 50vw solid var(--bg-color);
+  border-right: 50vw solid var(--bg-color);
+} */
 
 .about-me{
-  max-width: calc(50vh - 150px);
+  text-align: center;
 }
 
 .about-me img{
   border-radius: 100%;
+  text-align: center;
 }
 
 .skills-container {
-  color: var(--text-color);
+  color: var(--bg-color);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   box-shadow: 5px 5px 15px black;
   padding: 20px;
-  max-width: calc(50vh - 150px);
+}
+
+.skills-section {
+  padding: 0 10px;
 }
 
 .skills-list li{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   border-radius: 3px;
-  border: 3px solid var(--text-color);
+  border: 3px solid var(--bg-color);
   padding: 3px 5px;
   margin: 0 0 5px 3px;
 }
@@ -76,6 +103,11 @@
     flex-direction: column;
     align-items: center;
     max-width: calc(50vh - 100px);
+  }
+
+  #resume{
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 

@@ -10,14 +10,15 @@ class Skills extends React.Component{
   render(){
     return (
     <div id="resume" className="section-container">
+      <svg className="top-divider" viewBox="0 0 100 100" preserveAspectRatio="none" >
+        <polygon points="0,0 50,100 100,0"/>
+      </svg>
       <div className="about-me">
-        <h1>Andrew Gee</h1>
         <img src={logo} alt="profile"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>A software developer based in San Francisco.  I graduated from UC Santa Cruz with a degree in Computer Science: Computer Game Design.  I continued my education through a mixture of online bootcamps and self-study.</p>
       </div>
       <div className="skills-container">
-        <h1 className="section-title">SKILLS</h1>
-        <div>
+        <div className="skills-section">
           <FontAwesomeIcon icon={faDesktop} size="2x"/><h3>FrontEnd Skills</h3>
           <ul className="skills-list">
             <li>JavaScript</li>
@@ -28,7 +29,7 @@ class Skills extends React.Component{
             <li>jQuery</li>
           </ul>
         </div>
-        <div>
+        <div className="skills-section">
           <FontAwesomeIcon icon={faDatabase} size="2x"/><h3>BackEnd Skills</h3>
           <ul className="skills-list">
             <li>Node JS</li>
@@ -39,7 +40,7 @@ class Skills extends React.Component{
             <li>Mongoose</li>
           </ul>
         </div>
-        <div>
+        <div className="skills-section">
           <FontAwesomeIcon icon={faTools} size="2x"/><h3>Other Skills</h3>
           <ul className="skills-list">
             <li>Github</li>
@@ -50,6 +51,9 @@ class Skills extends React.Component{
           </ul>
         </div>
       </div>
+      <svg className="bottom-divider" viewBox="0 0 100 100" preserveAspectRatio="none" >
+        <polygon points="0,0 50,100 100,0 100,100 0,100"/>
+      </svg>
     </div>
   )
   }
