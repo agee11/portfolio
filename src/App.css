@@ -50,6 +50,11 @@ ul{
   align-content: center;
 }
 
+#projects{
+  position: relative;
+  padding-bottom: 150px;
+}
+
 @media only screen and (max-width: 1000px){
   .section-container{
     padding: 60px 50px;

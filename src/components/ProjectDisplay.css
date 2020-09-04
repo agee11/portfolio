@@ -25,6 +25,17 @@
   box-shadow: 0 0 10px white;
 }
 
+.project-divider{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  color: var(--link-color);
+  fill: currentColor;
+}
+
 .project-info{
   margin-left: 20px;
   padding: 10px;

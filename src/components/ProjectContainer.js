@@ -36,12 +36,18 @@ class ProjectContainer extends React.Component{
         <span className="sr-only">Loading...</span>
       </div>
     }
-    return <div id="projects" className="section-container">
-    <h1 className="section-title">PROJECTS</h1>
-      <div className="project-container">
-      {content}
+
+    return (
+      <div id="projects" className="section-container">
+        <h1 className="section-title">PROJECTS</h1>
+        <div className="project-container">
+        {content}
+        </div>
+        <svg className="project-divider" viewBox="0 0 100 100" preserveAspectRatio="none" >
+          <polygon points="0,0 50,100 100,0 100,100 0,100"/>
+        </svg>
       </div>
-    </div>
+  )
   }
 }
 
