@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
+import "./Home.css";
 
-class About extends React.Component{
+class Home extends React.Component{
 
   render(){
     return <div id="home" className="section-container">
@@ -17,6 +17,7 @@ class About extends React.Component{
             <li className="ticker-item">snowboarder.</li>
           </ul>
         </div>
+        <a className="cta-link" href="#projects">What I've been up to</a>
       </div>
       <svg className="divider" viewBox="0 0 100 100" preserveAspectRatio="none" >
         <polygon points="0,0 50,100 100,0 100,100 0,100"/>
@@ -25,4 +26,4 @@ class About extends React.Component{
   }
 }
 
-export default About;
+export default Home;

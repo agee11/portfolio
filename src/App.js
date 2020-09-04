@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import Footer from "./components/Footer";
-import About from "./components/About";
+import Home from "./components/Home";
 import ProjectContainer from "./components/ProjectContainer";
 import Skills from "./components/Skills";
 import WorkHistory from "./components/WorkHistory";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Navigation />
-      <About />
+      <Home />
       <ProjectContainer />
       <Skills />
       <WorkHistory />

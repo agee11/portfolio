@@ -12,7 +12,8 @@ class Skills extends React.Component{
       <div id="resume" className="section-container">
         <div className="about-me">
           <img src={logo} alt="profile"/>
-          <p>A software developer based in San Francisco.  I graduated from UC Santa Cruz with a degree in Computer Science: Computer Game Design.  I continued my education through a mixture of online bootcamps and self-study.</p>
+          <p>I'm a software developer based in San Francisco. Games fostered my passion for problem solving and fueled my interest in new technologies. I look forward to new challenges that can expand my growing skillset.</p>
+          <p>I graduated from UC Santa Cruz with a degree in Computer Science: Computer Game Design. I continued my education through a mixture of online bootcamps and self-study.</p>
         </div>
         <div className="skills-container">
           <div className="skills-section">

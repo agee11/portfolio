@@ -41,6 +41,21 @@
   font-size: 30px;
 }
 
+.cta-link{
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+
+.cta-link:hover{
+  background-color: var(--link-hover);
+  color: var(--bg-color);
+  border-radius: 3px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
 .name-highlight{
   display: block;
   color: var(--link-color);
@@ -52,6 +67,7 @@
   text-align: left;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .ticker-list{
