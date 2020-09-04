@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import logo from "../logo.jpg";
 
 function Navigation() {
 
     return <div className="top-bar">
         <Navbar fixed="top" bg="nav" variant="dark" expand="sm">
-          <Navbar.Brand>AG</Navbar.Brand>
+          <Navbar.Brand><img width="40px" src={logo}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse>
           <Nav>
