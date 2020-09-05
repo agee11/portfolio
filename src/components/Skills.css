@@ -39,6 +39,9 @@
 .about-me img{
   border-radius: 100%;
   text-align: center;
+  width: 320px;
+  height: 320px;
+  margin-bottom: 20px;
 }
 
 .skills-container {

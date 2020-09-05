@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDesktop, faDatabase, faTools} from "@fortawesome/free-solid-svg-icons";
 import "./Skills.css";
-import logo from "../logo.jpg";
+import profile from "../profile.jpg";
 
 class Skills extends React.Component{
 
@@ -11,7 +11,7 @@ class Skills extends React.Component{
     return (
       <div id="resume" className="section-container">
         <div className="about-me">
-          <img src={logo} alt="profile"/>
+          <img src={profile} alt="profile"/>
           <p>I'm a software developer based in San Francisco. Games fostered my passion for problem solving and fueled my interest in new technologies. I look forward to new challenges that can expand my growing skillset.</p>
           <p>I graduated from UC Santa Cruz with a degree in Computer Science: Computer Game Design. I continued my education through a mixture of online bootcamps and self-study.</p>
         </div>
